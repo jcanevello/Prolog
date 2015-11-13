@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>External Prolog Files</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>home/canevello/Documentos/Prolog/ejemplo.pl</name>
+			<type>1</type>
+			<location>/home/canevello/Documentos/Prolog/ejemplo.pl</location>
+		</link>
+	</linkedResources>
+</projectDescription>

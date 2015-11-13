@@ -1,0 +1,29 @@
+!SESSION 2015-11-09 11:30:39.240 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.7.0_85
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data file:/home/canevello/Documentos/Prolog/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-11-09 11:39:40.097
+!MESSAGE An internal error occurred during: "Consult 1 file(s)".
+!STACK 0
+java.lang.NullPointerException
+	at org.cs3.pdt.console.internal.ConsoleReloadExecutor.executePDTReload(ConsoleReloadExecutor.java:46)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService.executeReload(PrologProcessService.java:321)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService.consultFilesImpl(PrologProcessService.java:276)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService.access$1(PrologProcessService.java:262)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService$4.run(PrologProcessService.java:247)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-11-09 11:40:00.777
+!MESSAGE An internal error occurred during: "Consult 1 file(s)".
+!STACK 0
+java.lang.NullPointerException
+	at org.cs3.pdt.console.internal.ConsoleReloadExecutor.executePDTReload(ConsoleReloadExecutor.java:46)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService.executeReload(PrologProcessService.java:321)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService.consultFilesImpl(PrologProcessService.java:276)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService.access$1(PrologProcessService.java:262)
+	at org.cs3.pdt.connector.internal.service.PrologProcessService$4.run(PrologProcessService.java:247)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
